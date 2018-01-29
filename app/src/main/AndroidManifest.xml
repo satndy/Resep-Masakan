@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arissandy.satria.newresepmasakan">
+   <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name="com.orm.SugarApp"
+        android:allowBackup="true"
+        android:icon="@drawable/recipe"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="DATABASE"
+            android:value="resep.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="3" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="com.arissandy.satria.newresepmasakan" />
+
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DetailMasakan" />
+        <activity android:name=".TambahMasakan" />
+        <activity android:name=".EditMasakan" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="Resep Masakan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ayam" />
+        <activity android:name=".daging" />
+        <activity android:name=".minuman" />
+        <activity android:name=".ikan" />
+        <activity android:name=".mie"></activity>
+    </application>
+
+</manifest>
