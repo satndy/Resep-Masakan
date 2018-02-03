@@ -1,8 +1,9 @@
 # Resep-Masakan
 Nama Kelompok:
 
-1.Satria Setya Arissandy / 1641723011
-2.Ravid Ardiansyah / 1541180196
+Satria Setya Arissandy / 1641723011
+Ravid Ardiansyah / 1541180196
+
 
 
 
